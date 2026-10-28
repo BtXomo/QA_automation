@@ -1,0 +1,6 @@
+# Зависимости
+
+playwright
+pytest
+pytest-playwright
+pydantic
