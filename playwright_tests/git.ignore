@@ -1,2 +1,7 @@
 **/venv/
 **/ffmpeg/
+.idea
+.venv
+/ffmpeg/
+ffmpeg/
+ffmpeg
