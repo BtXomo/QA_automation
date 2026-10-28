@@ -1,0 +1,13 @@
+version: "3.8"
+
+services:
+  ivideon-server:
+    build: .
+    container_name: rtsp_emulator
+    ports:
+      - "8080:8080"
+      - "5554:5554"
+    volumes:
+      - ./videos:/app/data
+      - ./config:/app/config
+    restart: unless-stopped
